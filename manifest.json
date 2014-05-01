@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "CatBooty",
+    "description": "Download Extension.",
+    "version": "0.1",
+    "icons": {
+        "16": "icons/CatBootyIcon_16.png",
+        "48": "icons/CatBootyIcon_48.png",
+        "128": "icons/CatBootyIcon_128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "icons/CatBootyIcon_19.png",
+            "38": "icons/CatBootyIcon_38.png"
+        },
+        "default_title": "CatBooty",
+        "default_popup": "html/popup.html"
+    },
+    "author": "Masaki Mori",
+    "background": {
+        "scripts": ["js/eventPage.js"],
+        "persistent": false
+    },
+    "offline_enabled": true,
+    "options_page": "html/options.html",
+    "permissions": [
+        "downloads",
+        "storage"
+    ]
+            
+}
